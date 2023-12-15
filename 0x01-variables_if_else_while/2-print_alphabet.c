@@ -12,8 +12,9 @@ int main(void)
 
 	Char = 'a';
 	asciiValue = 97;
+	Char = asciiValue;
 	/* Your code goes here */
-	for (Char = 97; Char <= 122; Char++)
+	for (asciiValue= 97; asciiValue <= 122; asciiValue)
 	{
 		putchar(Char);
 	}
