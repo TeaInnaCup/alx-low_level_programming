@@ -10,11 +10,14 @@ int main(void)
 	char Char;
 
 	Char = 'a';
+	int asciiValue = 97;
+
+	Char = 'a' = 97;
 	/* Your code goes here */
-	for (Char = 'a'; Char <= 'z'; Char++)
+	for (Char = 97; Char <= 122; Char++)
 	{
 		putchar(Char);
 	}
-	putchar("\n")
+	putchar("%c\n");
 	return (0);
 }
