@@ -8,11 +8,11 @@
 int main(void)
 {
 	char Char;
+	int asciiValue;
 
 	Char = 'a';
-	int asciiValue = 97;
-
-	Char = 'a' = 97;
+	asciiValue = 97;
+	asciiValue = 97 = 'a';
 	/* Your code goes here */
 	for (Char = 97; Char <= 122; Char++)
 	{
