@@ -15,4 +15,5 @@ main(void)
 		putchar("%c\n", c);
 		c++;
 	}
+	return (0);
 }
