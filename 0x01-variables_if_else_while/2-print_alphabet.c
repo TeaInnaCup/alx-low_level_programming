@@ -3,17 +3,18 @@
 /**
  * main- Entry point
  *
- * Result: 0 Always (Success)
+ * Return: 0 Always (Success)
  */
-main(void)
+int main(void)
 {
-	char c;
+	char Char;
 
-	c = 'a';
-	while (c <= 'z')
+	Char = 'a';
+	/* Your code goes here */
+	for (Char = 'a'; Char <= 'z'; Char++;)
 	{
-		putchar("%c\n", c);
-		c++;
+		putchar(Char);
 	}
+	putchar("\n")
 	return (0);
 }
