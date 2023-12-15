@@ -8,16 +8,12 @@
 int main(void)
 {
 	char Char;
-	int asciiValue;
 
-	Char = 'a';
-	asciiValue = 97;
-	Char = asciiValue;
 	/* Your code goes here */
-	for (asciiValue= 97; asciiValue <= 122; asciiValue++)
+	for (Char = 'a'; Char <= 'z'; Char++)
 	{
 		putchar(Char);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
