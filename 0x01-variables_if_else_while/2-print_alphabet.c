@@ -11,7 +11,7 @@ int main(void)
 
 	Char = 'a';
 	/* Your code goes here */
-	for (Char = 'a'; Char <= 'z'; Char++;)
+	for (Char = 'a'; Char <= 'z'; Char++)
 	{
 		putchar(Char);
 	}
