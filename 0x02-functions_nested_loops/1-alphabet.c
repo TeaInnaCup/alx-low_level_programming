@@ -5,11 +5,11 @@
  * Return: void Always (Success)
  */
 void print_alphabet(void)
-	/*
-	 * Description: This function prints the lowercase alphabet in a single line.
-	 * Return: void (no return value)
-	 */
 {
+	/*
+         * Description: This function prints the lowercase alphabet in a single line.
+         * Return: void (no return value)
+         */
 	int alphabet;
 
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
