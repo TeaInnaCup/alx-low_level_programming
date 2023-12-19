@@ -1,14 +1,14 @@
 #include "main.h"
 /*
- * print_alphabet - Entry point
+ * print_alphabet - prints alphabets in lower cases
  *
- * Return: 0 Always (Success)
+ * Return: void Always (Success)
  */
 void print_alphabet(void)
 {
 	int alphabet;
 
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-	_putchar(alphabet);	
+		_putchar(alphabet);
 	_putchar('\n');
 }
