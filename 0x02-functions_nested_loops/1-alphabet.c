@@ -7,7 +7,7 @@
 void print_alphabet(void)
 {
 	/**
-	 * Description: prints the lowercase alphabet in a single line. 
+	 *Description: prints the lowercase alphabet in a single line. 
 	 * Return: void (no return value)
 	 */
 	int alphabet;
