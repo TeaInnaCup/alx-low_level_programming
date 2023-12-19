@@ -1,10 +1,11 @@
 #include "main.h"
 /*
- * print_alphabet - prints alphabets in lower cases
+ * print_alphabet -Entry point
  *
  * Return: void Always (Success)
  */
 void print_alphabet(void)
+	/* print alphabets in lower case */
 {
 	int alphabet;
 
