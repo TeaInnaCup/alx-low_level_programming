@@ -8,9 +8,9 @@ void print_alphabet(void)
 {
 	/**
 	 * Description: prints the lowercase alphabet in a single line.
-         *
+	 * 
 	 * Return: void (no return value)
-         */
+	 */
 	int alphabet;
 
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
