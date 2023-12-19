@@ -5,7 +5,10 @@
  * Return: void Always (Success)
  */
 void print_alphabet(void)
-	/* print alphabets in lower case */
+	/*
+	 * Description: This function prints the lowercase alphabet in a single line.
+	 * Return: void (no return value)
+	 */
 {
 	int alphabet;
 
