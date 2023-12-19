@@ -6,7 +6,7 @@
  */
 void print_alphabet_x10(void)
 {
-	/** Description - prints alphabets in lowercase 10  times
+	/** Description - prints alphabets in lowercase 10 times
 	 *
 	 */
 
