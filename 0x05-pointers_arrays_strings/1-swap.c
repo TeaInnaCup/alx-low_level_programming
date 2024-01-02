@@ -5,14 +5,6 @@
  *
  * Return: Always 0.
  */
-/* function definition */
-void swap_int(int *a, int *b)
-{
-	int temp = *a;
-	*a = *b;
-	*b = temp;
-}
-
 int main(void)
 {
 	int a;
