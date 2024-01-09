@@ -12,28 +12,27 @@
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int count = 0;
-	int found;
 
 	while (*s != '\0')
 	{
-		found = 0; /* Reset found flag for each character in s */
-		while (*accept != '\0')
+		int found = 0; /* Reset found flag for each character in s */
+		char *tempAccept = accept; /* use a temporary pointer */
+
+		while (*tempAccept != '\0')
 		{
-			if (*s == *accept)
+			if (*s == *tempAccept)
 			{
 				count++;
 				found = 1;
 				break; /* Exit the inner loop when a match is found */
 			}
-
-			accept++;
+			tempAccept++;
 		}
 		if (!found)
 		{
 			break; /* Exit the outer loop when a character not in accept is found */
 		}
 		s++;
-		accept = accept - count; /* Reset accept to the beginning */
 	}
 	return (count);
 }
