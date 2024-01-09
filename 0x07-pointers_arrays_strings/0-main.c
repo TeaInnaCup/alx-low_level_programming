@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * simple_printer_buffer  - prints buffer in hexa
+ * simple_print_buffer  - prints buffer in hexa
  * @buffer: the address of memory to print
  * @size: the size of the memory to print
  *
@@ -42,5 +42,5 @@ int main(void);
 	_memset(buffer, 0x01, 95);
 	printf("-------------------------------------------------\n");
 	simple_print_buffer(buffer, 98);
-	return(0);
+	return (0);
 }
