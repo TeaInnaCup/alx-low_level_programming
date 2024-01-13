@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * main - check code
@@ -6,10 +7,11 @@
  */
 int main(int argc, char *argv[])
 {
-	for(i = 0; arg[0][i] != '\0'; i++)
+	int i;
+
+	for(i = 0; i < argc; i++)
 	{
-		_putchar(argv[0][i])
+		printf("%s\n", argv[i]);
 	}
-	_putchar('\n');
 	return (0);
 }
