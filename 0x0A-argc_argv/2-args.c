@@ -6,7 +6,8 @@
  * @argc: argunment count. Counts the number of things entered into the
  * command line when running our executable in the terminal
  *
- * @argv: argument vector. An array that holds the string value of the things that were entered on
+ * @argv: argument vector. An array that holds the string value of the things
+ * that were entered on
  * the commnand line when running the program
  *
  * Return: 0 Always (Success)
