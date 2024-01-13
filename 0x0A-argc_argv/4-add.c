@@ -9,14 +9,14 @@
  * @argv: argument vector. An array thst holds the string value of the things
  * that were entered on the command line when running the program
  *
- * Return: 0 on Success and 1 on error 
+ * Return: 0 on Success and 1 on error
  */
 int main(int argc, char *argv[])
 {
 	int sum = 0;
 	int i;
 	int j;
-	
+
 	if (argc > 1)
 	{
 		for (i = 1; i < argc; i++)
