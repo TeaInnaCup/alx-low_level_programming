@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-/** 
+/**
  * main - entry point
  *
  * @argc: argument count. Counts the numbers of things entered into the command
@@ -12,12 +12,13 @@
  * Return: 0 on Success and 1 on error
  */
 int main(int argc, char *argv[])
-{	
-	if (argc > 1)
+{
+	if (argc > 2)
 	{
 		int num1 = atoi(argv[1]);
 		int num2 = atoi(argv[2]);
 		int mul = num1 * num2;
+
 		printf("%d\n", mul);
 		return (0);
 	}
