@@ -20,4 +20,5 @@ int main(void)
 		printf("%lu", y);
 		putchar('\n');
 		return (0);
+	}
 }
